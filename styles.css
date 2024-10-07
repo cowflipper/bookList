@@ -1,0 +1,75 @@
+body{
+    background-image:url(assets/10529.jpg)
+}
+
+.namelist{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.booklist{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.bt{
+    display: flex;
+    justify-content: center;
+}
+
+.send {
+    border: 2px solid brown;
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.send:hover{
+    background-color: #0056b3;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.send:active{
+    transform: scale(1.5);
+}
+
+.check {
+    text-decoration: line-through;
+    color:#0056b3;
+    font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: #0056b3; 
+    color: white; 
+    cursor: pointer;
+}
+
+#imageDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
